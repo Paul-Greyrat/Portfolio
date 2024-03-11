@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Portfolio</title>
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="#main">Trang chủ</a></li>
+            <li><a href="#skills">Kĩ năng</a></li>
+            <li><a href="#about">Giới thiệu bản thân</a></li>
+        </ul>
+        <a href="#about" class="btn-contact"><button>Liên hệ với tôi</button></a>
+        <button id="menuButton" onclick="openMenu()">
+            <i class='bx bx-menu'></i>
+        </button>
+    </nav>
+
+    <div class="main" id="main">
+        <div class="left">
+            <h5>Xin chào. Rất vui khi được gặp bạn!</h5>
+            <h3>Tôi tên là: <span>Nguyễn Văn Quyết</span>.</h3>
+            <p>
+                Nhiệt huyết và quyết tâm là key works của tôi.
+            </p> 
+        </div>
+        <div class="right">
+            <img src="./assets/img/img-me.jpg">
+        </div>
+    </div>
+
+    <div class="skills" id="skills">
+        <h3>kĩ năng và mục tiêu</h3>
+        <div class="skill-items">
+            <div class="item">
+                <div class="icon"><i class='bx bx-directions'></i></div>
+                <h4>Tin học văn phòng</h4>
+                <p>
+                    - Sử dụng thành thạo các công cụ Word, Excel, Power Point.
+                </p>
+            </div>
+            <div class="item">
+                <div class="icon"><i class='bx bx-code-alt'></i></i></div>
+                <h4> web development </h4>
+                <p>
+                    - Sử dụng thành thạo các công cụ html,css,javascript,github,...
+                </p>
+            </div>
+            <div class="item">
+                <div class="icon"><i class="fa-solid fa-bullseye"></i></div>
+                <h4> Mục tiêu </h4>
+                <p>
+                    - Tìm hiểu sâu về SEO. <br>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="about" id="about">
+        <div class="left">
+            <p> 
+                <h3> Giới thiệu bản thân </h3>
+            </p>
+            <p>
+                <h5>Tôi là: Nguyễn Văn Quyết</h5>
+            </p>
+
+            <p>
+                - Học vấn: 12/12
+            </p>
+            <p>
+                - Giới tính: Nam
+            </p>
+             <p>
+                - Sở thích: Đọc sách, thể thao , guitar.
+            </p>
+            <p>
+               - Nhiệt huyết và quyết tâm là điểm mạnh của tôi.
+            </p>
+        </div>
+        <div class="right">
+            <h3> Liên hệ</h3>
+            <div class="Contact-info">
+                <p><i class="fa-solid fa-location-dot"></i> Địa chỉ: 13, Ngõ 141, Quan Nhân, Thanh Xuân</p>
+                <p><i class="fa-solid fa-phone"></i> SĐT: <a href="tel:0329243580">0329243580</a></p>
+                <p><i class="fa-solid fa-envelope"></i> Email: <a href="mailto:anhday1622005@gmail.com">anhday1622005@gmail.com   </a> </p>
+                <p><i class="fa-brands fa-facebook"></i> Facebook: <a href="https://www.facebook.com/nguyenvan.quyet.1622005 "> Nguyễn Quyết</a> </p>
+                <p><i class="fa-brands fa-github"></i> Github: <a href="https://github.com/Paul-Greyrat"> Paul-Greyrat  </a> </p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="top">
+            <div class="logo">
+                <img style="border-radius: 20px;" src="./assets/img/background.jpg">
+                <a href="https://github.com/Paul-Greyrat">Paul Greyrat</a>
+            </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Youtube</a></li>
+                <li><a href="#">Projects</a></li>
+            </ul>
+            <div class="social-links">
+                <a href="https://www.facebook.com/nguyenvan.quyet.1622005 ">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="https://github.com/Paul-Greyrat"><i class="fa-brands fa-github"></i></a>
+                <a href="mailto:anhday1622005@gmail.com"><i class="fa-brands fa-google"></i></a>
+                <a href="tel:0329243580"><i class="fa-solid fa-square-phone"></i></a>
+            </div>
+        </div>
+        <div class="separator"></div>
+        <div class="bottom">
+            <p>
+                Made With ❤️ Paul Greyrat
+            </p>
+            <div class="links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Cookies Setting</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/7c8801c017.js" crossorigin="anonymous"></script>
+    <script src="./assets/script.js"></script>
+</body>
+
+</html>
